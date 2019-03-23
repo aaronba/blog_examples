@@ -1,0 +1,11 @@
+F:\src\BlogExamples\plugin_unit_test_examples\CrmPackage\bin\Debug\plugin_unit_test_examples.CrmPackage.dll
+F:\src\BlogExamples\plugin_unit_test_examples\CrmPackage\bin\Debug\plugin_unit_test_examples.CrmPackage.pdb
+F:\src\BlogExamples\plugin_unit_test_examples\CrmPackage\bin\Debug\plugin_unit_test_examples.plugin_AccountCreation.dll
+F:\src\BlogExamples\plugin_unit_test_examples\CrmPackage\bin\Debug\Microsoft.Xrm.Sdk.dll
+F:\src\BlogExamples\plugin_unit_test_examples\CrmPackage\bin\Debug\plugin_unit_test_examples.plugin_AccountCreation.pdb
+F:\src\BlogExamples\plugin_unit_test_examples\CrmPackage\bin\Debug\Microsoft.Xrm.Sdk.xml
+F:\src\BlogExamples\plugin_unit_test_examples\CrmPackage\obj\Debug\CrmPackage.csprojAssemblyReference.cache
+F:\src\BlogExamples\plugin_unit_test_examples\CrmPackage\obj\Debug\CrmPackage.csproj.CoreCompileInputs.cache
+F:\src\BlogExamples\plugin_unit_test_examples\CrmPackage\obj\Debug\CrmPackage.csproj.CopyComplete
+F:\src\BlogExamples\plugin_unit_test_examples\CrmPackage\obj\Debug\plugin_unit_test_examples.CrmPackage.dll
+F:\src\BlogExamples\plugin_unit_test_examples\CrmPackage\obj\Debug\plugin_unit_test_examples.CrmPackage.pdb

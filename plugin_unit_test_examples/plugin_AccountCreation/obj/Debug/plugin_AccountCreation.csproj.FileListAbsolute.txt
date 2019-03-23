@@ -1,0 +1,11 @@
+F:\src\BlogExamples\plugin_unit_test_examples\plugin_AccountCreation\bin\Debug\plugin_unit_test_examples.plugin_AccountCreation.dll
+F:\src\BlogExamples\plugin_unit_test_examples\plugin_AccountCreation\bin\Debug\plugin_unit_test_examples.plugin_AccountCreation.pdb
+F:\src\BlogExamples\plugin_unit_test_examples\plugin_AccountCreation\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+F:\src\BlogExamples\plugin_unit_test_examples\plugin_AccountCreation\bin\Debug\Microsoft.Xrm.Sdk.dll
+F:\src\BlogExamples\plugin_unit_test_examples\plugin_AccountCreation\bin\Debug\Microsoft.Xrm.Sdk.xml
+F:\src\BlogExamples\plugin_unit_test_examples\plugin_AccountCreation\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+F:\src\BlogExamples\plugin_unit_test_examples\plugin_AccountCreation\obj\Debug\plugin_AccountCreation.csprojAssemblyReference.cache
+F:\src\BlogExamples\plugin_unit_test_examples\plugin_AccountCreation\obj\Debug\plugin_AccountCreation.csproj.CoreCompileInputs.cache
+F:\src\BlogExamples\plugin_unit_test_examples\plugin_AccountCreation\obj\Debug\plugin_AccountCreation.csproj.CopyComplete
+F:\src\BlogExamples\plugin_unit_test_examples\plugin_AccountCreation\obj\Debug\plugin_unit_test_examples.plugin_AccountCreation.dll
+F:\src\BlogExamples\plugin_unit_test_examples\plugin_AccountCreation\obj\Debug\plugin_unit_test_examples.plugin_AccountCreation.pdb
