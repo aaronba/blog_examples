@@ -41,9 +41,9 @@ namespace UnitTests
             // This will setup the context with the entities created. This is the set of entities we will be able to access
             // during the test. 
             context.Initialize(new List<Entity> { account });
-
+            PreOperationaccountCreate plugin = new PreOperationaccountCreate("dev", null);
             // Execute the plugin. I have added the MessageName & stage as this plugin executes PreOperation
-            context.ExecutePluginWithTarget<PreOperationaccountCreate>(account, "Create", 20);
+            context.ExecutePluginWithTarget(plugin, account, "Create", 20);
 
             // Retrieve the update account from the fake context
             Entity updatedAccount = context.GetOrganizationService()
@@ -82,9 +82,9 @@ namespace UnitTests
             // This will setup the context with the entities created. This is the set of entities we will be able to access
             // during the test. 
             context.Initialize(new List<Entity> { account });
-
+            PreOperationaccountCreate plugin = new PreOperationaccountCreate("dev", null);
             // Execute the plugin. I have added the MessageName & stage as this plugin executes PreOperation
-            context.ExecutePluginWithTarget<PreOperationaccountCreate>(account, "Create", 20);
+            context.ExecutePluginWithTarget(plugin,account, "Create", 20);
 
             // I am not asserting anything here as the plugin only needs to throw an exception. If no exception is thrown
             // then the unit test would fail

@@ -33,15 +33,9 @@ namespace plugin_unit_test_examples.plugin_AccountCreation
         public PreOperationaccountCreate(string unsecure, string secure)
             : base(typeof(PreOperationaccountCreate))
         {
-            UnitTestMode = false;
-        }
 
-        /// <summary>
-        /// This constructor is used by the unit test framework
-        /// </summary>
-        public PreOperationaccountCreate() : base(typeof(PreOperationaccountCreate))
-        {
-            UnitTestMode = true;
+            UnitTestMode = unsecure.Contains("dev");
+            
         }
 
         protected override void ExecuteCrmPlugin(LocalPluginContext localContext)
