@@ -38,6 +38,6 @@ jobs:
    #   working-directory: plugin_unit_test_examples/UnitTests
    #   run: Get-ChildItem -Recurse
     
-    - name: Test plugin_unit_test_examples.CrmPackage
+    - name: Test UnitTests
       run: 
-       Set-Location -Path ${Env:ProgramFiles(x86)} -PassThru; Set-Location -Path 'Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow' -PassThru; .\VSTest.Console.exe D:\a\blog_examples\blog_examples\plugin_unit_test_examples\UnitTests\bin\Debug\UnitTests.dll
+       Set-Location -Path ${Env:ProgramFiles(x86)} -PassThru; Set-Location -Path 'Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow' -PassThru; .\VSTest.Console.exe D:\a\blog_examples\blog_examples\plugin_unit_test_examples\UnitTests\bin\Debug\UnitTests.dll /Logger:trx;LogFileName=UnitTests.trx
