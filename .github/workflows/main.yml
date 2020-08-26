@@ -26,18 +26,18 @@ jobs:
     - name: Setup MSBuild.exe
       uses: warrenbuckley/Setup-MSBuild@v1
 
-    - name: MSBuild SLN
-      working-directory: plugin_unit_test_examples
-      run: msbuild plugin_unit_test_examples.sln
+    #- name: MSBuild SLN
+    #  working-directory: plugin_unit_test_examples
+    #  run: msbuild plugin_unit_test_examples.sln
     
     - name: MSBuild UnitTests
       working-directory: plugin_unit_test_examples/UnitTests
       run: msbuild UnitTests.csproj
     
-    - name: Enumerate all output files
-      working-directory: plugin_unit_test_examples/UnitTests
-      run: Get-ChildItem -Recurse
+   # - name: Enumerate all output files
+   #   working-directory: plugin_unit_test_examples/UnitTests
+   #   run: Get-ChildItem -Recurse
     
     - name: Test plugin_unit_test_examples.CrmPackage
       run: 
-       Set-Location -Path ${Env:ProgramFiles(x86)} -PassThru; Set-Location -Path 'Microsoft Visual Studio\2019\Enterprise\Common7\IDE' -PassThru; .\MSTest.exe /testcontainer:D:\a\blog_examples\blog_examples\plugin_unit_test_examples\CrmPackage\bin\Debug\plugin_unit_test_examples.CrmPackage.dll
+       Set-Location -Path ${Env:ProgramFiles(x86)} -PassThru; Set-Location -Path 'Microsoft Visual Studio\2019\Enterprise\Common7\IDE' -PassThru; .\MSTest.exe /testcontainer:D:\a\blog_examples\blog_examples\plugin_unit_test_examples\UnitTests\bin\Debug\UnitTests.dll
