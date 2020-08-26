@@ -29,3 +29,6 @@ jobs:
     - name: MSBuild
       working-directory: plugin_unit_test_examples
       run: msbuild plugin_unit_test_examples.sln
+    
+    - name: Enumerate all output files
+      run: dir /s
