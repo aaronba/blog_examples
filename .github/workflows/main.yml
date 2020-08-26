@@ -36,4 +36,4 @@ jobs:
     
     - name: Test plugin_unit_test_examples.CrmPackage
       run: 
-       cd ${Env:ProgramFiles(x86)}; cd 'Microsoft Visual Studio\2019\Enterprise\Common7\IDE'; .\MSTest.exe /testcontainer:plugin_unit_test_examples\CrmPackage\bin\Debug\plugin_unit_test_examples.CrmPackage.dll
+       $prevLocation = Get-Location; Set-Location -Path ${Env:ProgramFiles(x86)} -PassThru; Set-Location -Path 'Microsoft Visual Studio\2019\Enterprise\Common7\IDE' -PassThru; .\MSTest.exe /testcontainer:${prevLocation.Path}plugin_unit_test_examples\CrmPackage\bin\Debug\plugin_unit_test_examples.CrmPackage.dll
