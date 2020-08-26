@@ -35,5 +35,5 @@ jobs:
    #   run: Get-ChildItem -Recurse
     
     - name: Test plugin_unit_test_examples.CrmPackage
-      working-directory: "plugin_unit_test_examples\\CrmPackage\\bin\\Debug"
-      run: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\Common7\\IDE\\mstest /testcontainer:plugin_unit_test_examples.CrmPackage.dll"
+      working-directory: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\Common7\\IDE"
+      run: mstest /testcontainer:plugin_unit_test_examples\CrmPackage\bin\Debug\plugin_unit_test_examples.CrmPackage.dll"
