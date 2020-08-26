@@ -30,5 +30,9 @@ jobs:
       working-directory: plugin_unit_test_examples
       run: msbuild plugin_unit_test_examples.sln
     
-    - name: Enumerate all output files
-      run: Get-ChildItem -Recurse
+    #- name: Enumerate all output files
+    #  run: Get-ChildItem -Recurse
+    
+    - name: Test plugin_unit_test_examples.CrmPackage
+      working-directory: "plugin_unit_test_examples\\CrmPackage\\bin\\Debug"
+      run: mstest /testcontainer:\plugin_unit_test_examples.CrmPackage.dll
