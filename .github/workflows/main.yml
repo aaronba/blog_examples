@@ -36,5 +36,4 @@ jobs:
     
     - name: Test plugin_unit_test_examples.CrmPackage
       run: 
-        cd 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE'
-        MSTest.exe /testcontainer:plugin_unit_test_examples\CrmPackage\bin\Debug\plugin_unit_test_examples.CrmPackage.dll
+        C:\Program Files '(x86')\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\MSTest.exe /testcontainer:plugin_unit_test_examples\CrmPackage\bin\Debug\plugin_unit_test_examples.CrmPackage.dll
