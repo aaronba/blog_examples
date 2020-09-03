@@ -40,7 +40,7 @@ jobs:
     
     - name: Test UnitTests
       run: 
-       Set-Location -Path ${Env:ProgramFiles(x86)} -PassThru; Set-Location -Path 'Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow' -PassThru; .\VSTest.Console.exe D:\a\blog_examples\blog_examples\plugin_unit_test_examples\UnitTests\bin\Debug\UnitTests.dll /Logger:trx`;LogFileName=D:\a\blog_examples\blog_examples\plugin_unit_test_examples\UnitTests\bin\Debug\UnitTests.trx
+       Set-Location -Path ${Env:ProgramFiles(x86)} -PassThru; Set-Location -Path 'Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow' -PassThru; .\VSTest.Console.exe D:\a\blog_examples\blog_examples\plugin_unit_test_examples\UnitTests\bin\Debug\UnitTests.dll /Enablecodecoverage /Logger:trx`;LogFileName=D:\a\blog_examples\blog_examples\plugin_unit_test_examples\UnitTests\bin\Debug\UnitTests.trx
        
     - uses: actions/upload-artifact@v2
       with:
