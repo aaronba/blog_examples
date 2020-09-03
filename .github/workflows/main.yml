@@ -46,4 +46,11 @@ jobs:
       with:
         name: unittest.trx
         path: plugin_unit_test_examples\UnitTests\bin\Debug\UnitTests.trx
+        
+        
+    - uses: actions/upload-artifact@v2
+      with:
+        name: Debug Folder
+        path: D:\a\blog_examples\blog_examples\plugin_unit_test_examples\UnitTests\bin\Debug\
+    # D:\a\blog_examples\blog_examples\plugin_unit_test_examples\UnitTests\bin\Debug\
      
